@@ -1,12 +1,10 @@
 #include <stdio.h>
-
 #include <stdlib.h>
-
 #include <time.h>
 
 /**
  * main - Print numbers 
- * Retrun: you're good to go
+ * Retrun: 0 (you are good to go)
  */
 
 int main(void)
