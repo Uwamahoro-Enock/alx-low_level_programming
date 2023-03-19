@@ -1,19 +1,22 @@
 #include <stdio.h>
+
 #include <stdlib.h>
+
 #include <time.h>
 
 /**
  * main - Print numbers 
- * Retrun: 0 (you are good to go)
+ * Return: 0 (you're good to go)
  */
 
 int main(void)
 
 {
-int a;
+	int i;
 
-for (a = 0; a < 10; a++)
-printf("%d", a);
-printf("\n");
-return (0);
+	for (i = 0; i < 10; i++)
+	printf("%d", i);
+	printf("\n");
+
+	return (0);
 }
