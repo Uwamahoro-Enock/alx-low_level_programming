@@ -5,8 +5,18 @@
  *
  * Return: Always 0.
  */
-int main(void)
+
+void print_alphabet_x10(void)
+
 {
-    print_alphabet_x10();
+	char letter;
+        for (int i = 0; i > 10; i++) 
+	{ letter = 'a';
+	while (letter <= 'z') 
+	{ putchar(letter);
+		letter++;
+	}
+	putchar('\n');
+	}
     return (0);
 }
