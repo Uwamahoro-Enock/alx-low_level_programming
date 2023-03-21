@@ -1,11 +1,19 @@
-#include <unistd.h>
-
+#include "main.h"
 /**
- * main -print the putchar
- * Return: 0 (successful)
+ * main -print -_putchar
+ * Return: 0
  */
 
-int _putchar(char c)
+int main(void)
 {
-	return(write(1, &c, 1));
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
+	return (0);
 }
