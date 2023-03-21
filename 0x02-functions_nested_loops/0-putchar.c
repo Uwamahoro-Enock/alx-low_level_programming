@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <main.h>
+
 /**
  * main -print the putchar
  * Return: 0 (successful)
  */
 
-int main(void)
+int main(void) 
 {
 	putchar = '_';
 	putchar = 'p';
@@ -15,5 +16,6 @@ int main(void)
 	putchar = 'h';
 	putchar = 'a';
 	putchar = 'r';
+	putchar = '\n';
 	return (0);
 }
