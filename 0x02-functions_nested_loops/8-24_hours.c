@@ -3,28 +3,27 @@
 /*the day of Jack Bauer, starting from
 00:00 to 23:59.*/
 /**
- * jack_bauer - print evry minute of the
+ * jack_bauer - print every minute of the
 day
- *
  * Return: Always void
  */
 void jack_bauer(void)
 {
-        int i, j;
-        i = 00;
-        while (i < 24)
-        {
-                j = 00;
-                while (j < 60)
-                {
-                        _putchar((i / 10) + '0');
-                        _putchar((i % 10) + '0');
-                        _putchar(':');
-                        _putchar((j / 10) + '0');
-                        _putchar((j % 10) + '0');
-                        _putchar('\n');
-                        j++;
+int i, j;
+i = 00;
+while (i < 24)
+{
+j = 00;
+while (j < 60)
+{
+_putchar((i / 10) + '0');
+_putchar((i % 10) + '0');
+_putchar(':');
+_putchar((j / 10) + '0');
+_putchar((j % 10) + '0');
+_putchar('\n');
+j++;
                 }
                 i++;
-        }
+      }
 }
